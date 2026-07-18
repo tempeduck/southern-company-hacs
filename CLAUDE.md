@@ -37,4 +37,5 @@ scp -r custom_components/southern_company root@10.10.1.20:/config/custom_compone
 
 ## Active Handoff
 
-- [2026-06-06 (Claude Code)]: Added agent collaboration rules and initialized handoff log.
+Current state, validation, open work, and operational risks are maintained in `handoff/ACTIVE.md`.
+Historical entries migrated on 2026-07-18 are preserved in `handoff/archive/CLAUDE-active-20260718.md`.

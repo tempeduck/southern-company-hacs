@@ -19,6 +19,5 @@ recent history.
 
 ## Handoff
 
-Until the handoff is extracted to `handoff/ACTIVE.md`, update the existing
-`## Active Handoff` section in `CLAUDE.md` after meaningful work. Keep entries
+Update `handoff/ACTIVE.md` after meaningful work. Keep entries
 concise: current state, validation, open work, and risks.

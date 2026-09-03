@@ -47,6 +47,7 @@
 | Projected bill          | Upper estimate of the current month's bill    |
 | Daily gas (ft³)         | Gas used on the most recent day               |
 | Daily cost              | Cost for the most recent day                  |
+| Daily meter reading (ft³) | Cumulative daily meter reading (`state_class: total_increasing`) for HA Energy Dashboard |
 | Next meter read date    | Date of the next scheduled meter read         |
 
 ## Installation

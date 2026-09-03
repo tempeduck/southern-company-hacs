@@ -65,6 +65,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         if account_type == ACCOUNT_TYPE_NICOR_GAS:
             from southern_company_api.nicor_parser import NicorGasAPI  # noqa: PLC0415
+
             api = NicorGasAPI(
                 user_input[CONF_USERNAME],
                 user_input[CONF_PASSWORD],

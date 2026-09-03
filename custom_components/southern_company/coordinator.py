@@ -236,6 +236,4 @@ class NicorGasCoordinator(DataUpdateCoordinator):
             return await self._api.get_usage_history()
         except Exception as ex:
             _LOGGER.exception("Unexpected error fetching Nicor Gas usage history")
-            raise UpdateFailed(
-                f"Failed to get Nicor Gas usage history: {ex}"
-            ) from ex
+            raise UpdateFailed(f"Failed to get Nicor Gas usage history: {ex}") from ex

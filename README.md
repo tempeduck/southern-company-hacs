@@ -2,7 +2,12 @@
 >
 > 👉 **Use the official repo:** [Southern-Company-HA/southern-company-hacs](https://github.com/Southern-Company-HA/southern-company-hacs)
 
-# Southern Company HACS
+# Southern Company HACS (Nicor Gas)
+
+> [!IMPORTANT]
+> **DEPRECATED & ARCHIVED**: Nicor Gas support has been fully merged upstream into the official [Southern-Company-HA/southern-company-hacs](https://github.com/Southern-Company-HA/southern-company-hacs) integration!
+>
+> Please use [Southern-Company-HA/southern-company-hacs](https://github.com/Southern-Company-HA/southern-company-hacs) for all future installations, HACS downloads, and updates.
 
 [![GitHub Release][releases-shield]][releases]
 [![GitHub Activity][commits-shield]][commits]

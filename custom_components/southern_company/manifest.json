@@ -10,7 +10,7 @@
   "loggers": ["southern_company"],
   "quality_scale": "bronze",
   "requirements": [
-    "southern-company-api @ git+https://github.com/tempeduck/southern_company_api.git@c0682a0b10e146549557c194193b6ec54d187f47"
+    "southern-company-api @ git+https://github.com/tempeduck/southern_company_api.git@023a1ef3922b1128eafbdd07539ed3cc451de514"
   ],
-  "version": "1.1.2"
+  "version": "1.1.3"
 }

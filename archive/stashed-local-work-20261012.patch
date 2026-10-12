@@ -1,0 +1,13 @@
+diff --git a/custom_components/southern_company/sensor.py b/custom_components/southern_company/sensor.py
+index 20fe962..12cd716 100644
+--- a/custom_components/southern_company/sensor.py
++++ b/custom_components/southern_company/sensor.py
+@@ -324,7 +324,7 @@ NICOR_SENSORS: tuple[NicorGasEntityDescription, ...] = (
+         name="Daily gas",
+         device_class=SensorDeviceClass.GAS,
+         native_unit_of_measurement=UnitOfVolume.CUBIC_FEET,
+-        state_class=SensorStateClass.MEASUREMENT,
++        state_class=SensorStateClass.TOTAL,
+         value_fn=_most_recent_daily_ccfs,
+         attr_fn=_most_recent_daily_therms_attrs,
+         statistic_id=f"{DOMAIN}:nicor_gas_daily_gas",
